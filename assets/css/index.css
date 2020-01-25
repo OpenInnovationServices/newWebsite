@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+#navBrand{
+    height: 4rem;
+    width: auto;
+}
+
+.navbar{
+    padding: 0 2rem !important;
+    background-color:#00007a;
+    color: cornsilk;
+}
+
+.nav-item{
+    margin: auto 1rem;
+}
+
+.nav-link{
+    font-weight: bold;
+    color: white !important;
+}
+
+#introSection{
+	background-image: url("../images/introBg.png");
+    min-height: 650px;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    margin-top: -1.5rem;
+}
+
+#introText{
+    color: #00007a;
+    font-size: 3.2rem;
+    padding-left: 3rem;
+    margin-top: 2rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    line-height: 4.8rem;
+}
+
+#social-icons-intro{
+    height: 3rem;
+    width: auto;
+    padding-right: 2rem;
+}
+
+#sec2{
+    font-weight: 500;
+}
+
+#unleash-header{
+    color: #fd7c10;
+    font-size: 3.5rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    line-height: 3rem;
+    padding-bottom: 1rem;
+}
+
+#fergalBio{
+    background-image: url("../images/fergalBio.png");
+    max-height: 500px;
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: cover;
+}
+
+section{
+	padding: 1.5rem 0;
+}
+
+#section2{
+    font-size: 1.3rem;
+    padding: 1rem 14rem;
+}
+
+#pwrSection{
+    height: 120px;
+    width: 1000px;
+}
+
+.pwr-text{
+    padding-top: 3rem;
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 1000;
+}
+
+.pwr-1{
+   background-image: url("../images/yellow.png");
+}
+.pwr-2{
+    background-image:url("../images/orange.png");
+}
+.pwr-3{
+    background-image: url("../images/green.png"); 
+}
+
+#unleashMain{
+position: relative;
+}
+.unleash-section{
+    height: 400px;
+    width: 560px;
+    margin-bottom: 5px;
+    padding: auto;
+}
+
+.unleash-container{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.fb-logosec{
+    position: absolute;
+    top: 305px;
+}
+
+#fergal-bio-text{
+    padding: 3.5rem 3rem;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 2rem;
+}
+
+#bio-textStart{
+    margin-bottom: 1.5rem;
+}
+
+.bioBtn{
+    background-color: transparent;
+    border: 1.5px solid #87ceeb;
+    padding: 1rem;
+}
+
+.bioBtn:hover{
+    background-color: #87ceeb;
+    color: #000;
+    border: 1.5px solid #87ceeb;;
+}
+
+#testimonial{
+    background-color: #87ceeb;
+}
+
+#testimonial-header{
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+
+    font-weight: 1000;
+}
+
+.carousel{
+    margin-top: 5px;
+  }
+  .carousel-inner{
+    height: 220px;
+  }
+  .carousel-caption{
+    color: #fff;
+    top: 6%;
+    font-size: 1rem;
+  }
+
+#testimonial-text{
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+footer{
+    background-color: #00007a;
+    padding: 1.8rem 0;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+#testimonial-by{
+    font-weight: 1000;
+    font-size: 1.4rem;
+}
+
+#footer-left-text{
+    padding-top: .8rem;
+    border-right: 2px solid white;
+}
+
+.footer-img{
+    height: 2rem;
+    width: auto;
+}
