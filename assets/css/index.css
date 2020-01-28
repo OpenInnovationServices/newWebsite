@@ -141,6 +141,10 @@ position: relative;
     background-image: url("../images/ms-4.png");
 }
 
+.testimonial-img{
+    height: 40px;
+}
+
 
 .fb-logosec{
     position: absolute;
@@ -178,7 +182,6 @@ position: relative;
 #testimonial-header{
     font-size: 1.5rem;
     font-family: 'Oswald', sans-serif;
-
     font-weight: 1000;
 }
 
@@ -186,13 +189,20 @@ position: relative;
     margin-top: 5px;
   }
   .carousel-inner{
-    height: 220px;
+    height: 300px;
   }
   .carousel-caption{
     color: #fff;
     top: 6%;
     font-size: 1rem;
-  }
+ }
+
+  .carousel-indicators li {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #F9D500;
+}
 
 #testimonial-text{
     font-size: 1.2rem;
