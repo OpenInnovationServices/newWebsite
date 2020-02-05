@@ -1,0 +1,43 @@
+#introSprintSection{
+	background-image: url("../images/sprints-page/intro-sprint.png");
+    min-height: 650px;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    margin-top: -1.5rem;
+}
+
+#section2-sprint{
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.sprint-testimonial{
+    color: #72ced8;
+}
+
+.unleash-sprint{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#intro-sprint-header{
+    border: 10px solid #72ced8;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#testimonial-giver{
+    font-size: 1.1rem;
+}
+
+.testimonial-pic{
+    height: 3rem;
+}

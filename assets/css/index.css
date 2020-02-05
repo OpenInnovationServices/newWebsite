@@ -27,13 +27,20 @@ html,body{
     color: white !important;
 }
 
-#introSection{
-	background-image: url("../images/introBg.png");
+.introSection{
     min-height: 650px;
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
     margin-top: -1.5rem;
+}
+
+#intro-home-img{
+    background-image: url("../images/introBg.png");
+}
+
+#intro-sprint-img{
+    background-image: url("../images/sprints-page/");
 }
 
 #introText{
@@ -45,6 +52,8 @@ html,body{
     font-weight: 600;
     line-height: 4.8rem;
 }
+
+
 
 #social-icons-intro{
     height: 3rem;
@@ -123,6 +132,10 @@ position: relative;
     color: white;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
     display: table-cell; vertical-align: middle;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link{
+    color: #72ced8!important;
 }
 
 #img-1{
