@@ -7,6 +7,24 @@
     margin-top: -1.5rem;
 }
 
+#introTalksSection{
+	background-image: url("../images/talks-page/talks-introSection.png");
+    min-height: 650px;
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: cover;
+    margin-top: 0rem;
+}
+
+#introAdvisorySection{
+	background-image: url("../images/advisory-page/adisory-intro.png");
+    min-height: 650px;
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: cover;
+    margin-top: 0rem;
+}
+
 #section2-sprint{
     font-size: 1.5rem;
     line-height: 2rem;
@@ -40,4 +58,11 @@
 
 .testimonial-pic{
     height: 3rem;
+}
+
+
+#talk-img-header{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
 }

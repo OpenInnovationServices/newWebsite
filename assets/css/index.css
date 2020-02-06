@@ -43,6 +43,10 @@ html,body{
     background-image: url("../images/sprints-page/");
 }
 
+#intro-talks-img{
+    background-image: url("../images/talks-page/talks-introSection.png");
+}
+
 #introText{
     color: #00007a;
     font-size: 3.2rem;
