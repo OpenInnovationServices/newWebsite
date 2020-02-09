@@ -36,11 +36,7 @@ html,body{
 }
 
 #intro-home-img{
-    background-image: url("../images/introBg.png");
-}
-
-#intro-sprint-img{
-    background-image: url("../images/sprints-page/");
+    background-image: url("../images/index-page/introBg.png");
 }
 
 #intro-talks-img{
@@ -79,7 +75,7 @@ html,body{
 }
 
 #fergalBio{
-    background-image: url("../images/fergalBio.png");
+    background-image: url("../images/index-page/fergalBio.png");
     max-height: 500px;
     background-repeat: no-repeat;
     background-position:top;
@@ -108,13 +104,13 @@ section{
 }
 
 .pwr-1{
-   background-image: url("../images/yellow.png");
+   background-image: url("../images/index-page/yellow.png");
 }
 .pwr-2{
-    background-image:url("../images/orange.png");
+    background-image:url("../images/index-page/orange.png");
 }
 .pwr-3{
-    background-image: url("../images/green.png"); 
+    background-image: url("../images/index-page/green.png"); 
 }
 
 #unleashMain{
@@ -143,19 +139,19 @@ position: relative;
 }
 
 #img-1{
-    background-image: url("../images/ms-1.png");
+    background-image: url("../images/index-page/ms-1.png");
 }
 
 #img-2{
-    background-image: url("../images/ms-2.png");
+    background-image: url("../images/index-page/ms-2.png");
 }
 
 #img-3{
-    background-image: url("../images/ms-3.png");
+    background-image: url("../images/index-page/ms-3.png");
 }
 
 #img-4{
-    background-image: url("../images/ms-4.png");
+    background-image: url("../images/index-page/ms-4.png");
 }
 
 .testimonial-img{

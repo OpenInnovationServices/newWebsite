@@ -25,6 +25,15 @@
     margin-top: 0rem;
 }
 
+#introCreativitySection{
+    background-image: url("../images/creativity-page/creativty-intro.png");
+    min-height: 650px;
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: cover;
+    margin-top: 0rem;
+}
+
 #section2-sprint{
     font-size: 1.5rem;
     line-height: 2rem;
