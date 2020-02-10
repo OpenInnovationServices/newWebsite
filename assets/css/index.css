@@ -214,7 +214,19 @@ position: relative;
     width: 20px;
     height: 20px;
     border-radius: 100%;
+    border: 2px solid white;
+    border-spacing: 5px;
+}
+
+.carousel-indicators .active {
     background-color: #F9D500;
+    height: 17px;
+    width: 17px;
+}
+
+
+#icon-indicator{
+    font-size: 3rem;
 }
 
 #testimonial-text{
