@@ -84,3 +84,17 @@
     line-height: 6rem;
     display: inline-block;
 }
+
+#challenge-sub-text{
+    font-family: oswald;
+    font-weight: 100;
+}
+
+#intro-challenge-header{
+    border: 10px solid #72ced8;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: #72ced8;
+}
