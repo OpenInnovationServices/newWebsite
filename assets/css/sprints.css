@@ -8,7 +8,8 @@
 }
 
 #introTalksSection{
-	background-image: url("../images/talks-page/talks-introSection.png");
+    background-image: url("../images/talks-page/talks-introSection.png");
+    image-resolution: 100dpi;
     min-height: 650px;
     background-repeat: no-repeat;
     background-position:top;
@@ -40,7 +41,7 @@
 }
 
 .sprint-testimonial{
-    color: #72ced8;
+    color: #009ADA!important;
 }
 
 .unleash-sprint{
@@ -52,7 +53,7 @@
 }
 
 #intro-sprint-header{
-    border: 10px solid #72ced8;
+    border: 10px solid #65BBE9;
     padding-left: 1rem;
     padding-right: 1rem;
     font-size: 2.8rem;
@@ -66,7 +67,7 @@
 }
 
 .testimonial-pic{
-    height: 3rem;
+    height: 4.4rem;
 }
 
 
