@@ -1,38 +1,18 @@
 #introSprintSection{
 	background-image: url("../images/sprints-page/intro-sprint.png");
-    min-height: 650px;
-    background-repeat: no-repeat;
-    background-position:center;
-    background-size: cover;
-    margin-top: -1.5rem;
+    
 }
 
 #introTalksSection{
     background-image: url("../images/talks-page/talks-introSection.png");
-    image-resolution: 100dpi;
-    min-height: 650px;
-    background-repeat: no-repeat;
-    background-position:top;
-    background-size: cover;
-    margin-top: 0rem;
 }
 
 #introAdvisorySection{
 	background-image: url("../images/advisory-page/adisory-intro.png");
-    min-height: 650px;
-    background-repeat: no-repeat;
-    background-position:top;
-    background-size: cover;
-    margin-top: 0rem;
 }
 
 #introCreativitySection{
     background-image: url("../images/creativity-page/creativty-intro.png");
-    min-height: 650px;
-    background-repeat: no-repeat;
-    background-position:top;
-    background-size: cover;
-    margin-top: 0rem;
 }
 
 #section2-sprint{
