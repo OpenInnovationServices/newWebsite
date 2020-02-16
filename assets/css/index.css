@@ -269,7 +269,11 @@ footer{
 }
 
 .footer-icon{
-    height: 35px;
+    height: 26px;
+}
+
+.footer-icon-phone{
+    height: 40px;
 }
 
 .advi-img{
