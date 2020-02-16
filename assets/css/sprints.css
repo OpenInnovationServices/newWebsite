@@ -18,6 +18,7 @@
 #section2-sprint{
     font-size: 1.5rem;
     line-height: 2rem;
+    padding:0rem 10rem 0rem 10rem;
 }
 
 .sprint-testimonial{
@@ -78,4 +79,35 @@
     font-size: 2.8rem;
     font-weight: 600;
     color: #72ced8;
+}
+
+@media (min-width: 768px) {
+
+    #section2-sprint {
+        padding: 0rem 3rem;
+    }
+ }
+
+@media (max-width: 576px) { 
+    #section2-sprint {
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+        padding: 0rem 0.5rem;
+    }
+
+    .testimonial-pic {
+        height: 3rem;
+    }
+
+    #on-demand-text {
+        font-size: 2.5rem;
+        border-bottom: 0.6rem solid #F9D500;
+        line-height: 3rem;
+        display: inline-block;
+    }
+
+    #intro-challenge-header{
+        padding-left: 0rem;
+    padding-right: 0rem;
+    }
 }
