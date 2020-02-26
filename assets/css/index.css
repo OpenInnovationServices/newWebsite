@@ -99,6 +99,7 @@ section{
 #pwrSection{
     height: 120px;
     border: 2px solid white;
+    background-size: cover;
 }
 
 .pwr-text{
