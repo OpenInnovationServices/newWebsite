@@ -48,7 +48,7 @@ html,body{
     color: #005496;
     font-size: 3.2rem;
     padding-left: 3rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
     line-height: 4.8rem;
@@ -450,7 +450,7 @@ footer{
         font-size: 3rem;
         text-align: center;
         padding-left: 0;
-        margin-top: 3rem;
+        margin-top: 5rem;
     }
 
     #section2 {
