@@ -129,6 +129,7 @@ position: relative;
     border: 3px solid white;
     display: table;
     overflow: hidden;
+    background-size: cover;
 }
 
 .unleash-text{
@@ -187,7 +188,7 @@ position: relative;
 
 .fb-logosec{
     position: absolute;
-    top: 305px;
+    top: 310px;
 }
 
 .fb-logosec-2{
@@ -196,7 +197,7 @@ position: relative;
 }
 
 #fergal-bio-text{
-    padding: 3.5rem 3rem;
+    padding: 2.5rem 2.6rem;
     color: #fff;
     font-size: 1.3rem;
     font-weight: bold;
@@ -204,7 +205,7 @@ position: relative;
 }
 
 #bio-textStart{
-    margin-bottom: 1.5rem;
+    margin-bottom: .8rem;
 }
 
 .bioBtn{
@@ -383,7 +384,42 @@ footer{
     padding: 0;
 }
 
+#lisa-img{
+    max-width: 8rem;
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+}
+
+.img-holder{
+    position: relative;
+  text-align: center;
+  padding: 3px;
+}
+
+.index-4imgs{
+    max-width: 100%;
+}
+
+.text-custom-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 992px) {
+.unleash-section{
+    height: 300px;
+    width: 475px;
+}
+}
 @media (max-width: 768px) {
+
+    #bio-textStart {
+        font-size: .9rem;
+    }
+
     .advi-img{
         max-width: 100%;
         min-width: none;
@@ -417,16 +453,30 @@ footer{
         padding: 5px 12px;
     }
 
+    .index-4imgs{
+       border: 3px solid white;
+    }
+
  }
 
 
 @media (max-width: 576px) { 
+
+    #social-icons-intro {
+        height: 1.3rem;
+        width: auto;
+        margin-top: .8rem;
+        padding-right: .5rem;
+        padding-left: .4rem;
+        border-right: 3px solid #005496;
+    }
+
     .con-talk-all-cr{
         margin: .5rem 0;
     }
 
     #navBrand {
-        height: 2.5rem;
+        height: 2.8rem;
     }
 
     .navbar{
@@ -443,14 +493,21 @@ footer{
     }
 
     #header-introText{
-        margin: 2rem 0;
+        margin: 0;
     }
 
     #introText{
-        font-size: 3rem;
+        font-size: 1.1rem;
         text-align: center;
         padding-left: 0;
-        margin-top: 5rem;
+        margin-top: 2.3rem;
+        line-height: 1.5rem;
+    }
+
+    .introSection{
+        max-height: 200px;
+        min-height: 200px;
+        background-size: contain;
     }
 
     #section2 {
@@ -462,6 +519,7 @@ footer{
     #unleash-header {
         line-height: 2.5rem;
         font-size: 2rem;
+        margin-top: 1rem;
     }
 
     .unleash-section {
@@ -484,8 +542,9 @@ footer{
     }
 
     #fb-logo-img{
-        max-height: 150px;
-        max-width: 150px;
+        display: none
+        /* max-height: 150px;
+        max-width: 150px; */
     }
 
     #fergalBio{
@@ -537,20 +596,40 @@ footer{
     }
 
     .call-to-action{
-            bottom: 2rem;
+            bottom: -1rem;
             right: 0.5rem;
             left: 0.5rem;
             font-size: 0.9rem;
     }
 
+    .c2a-btn{
+        max-width: 1.2rem;
+    }
+
     .tlk-cus{
         max-width: 100%; margin: .3rem 0;
+        border: 3px solid white;
     }
 
     .fb-logosec-2{
         position: absolute;
         top: 448px;
     }
+
+    .unleash-section{
+        width: 368px;
+    }
+
+    #sec2{
+        text-align: left;
+    }
+
+    #lisa-img{
+        position: relative;
+        bottom: 0;
+        right: 0;
+    }
+
 
 
  }
