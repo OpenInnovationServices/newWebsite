@@ -15,6 +15,10 @@
     background-image: url("../images/creativity-page/creativty-intro.png");
 }
 
+#introRemoteSection{
+    background-image: url("../images/remote-page/main.jpg");
+}
+
 #section2-sprint{
     font-size: 1.5rem;
     line-height: 2rem;
