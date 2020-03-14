@@ -126,6 +126,16 @@
     }
 
     .unleash-sprint {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
+    }
+
+    .sprint-testimonial {
+        text-align: center!important;
+        margin-top: 0!important;
+    }
+
+    .sprint-opti{
+        margin-top: -2rem!important;
+        margin-bottom: 0rem;
     }
 }
