@@ -513,7 +513,7 @@ footer{
 
     .introSection{
         max-height: 200px;
-        min-height: 210px;
+        min-height: 235px;
         background-size: contain;
     }
 
@@ -603,9 +603,9 @@ footer{
     }
 
     .call-to-action{
-            bottom: -2.5rem;
-            right: 0.5rem;
-            left: 0.5rem;
+            bottom: -1.4rem;
+            right: 0rem;
+            left: 0rem;
             font-size: 0.9rem;
     }
 
@@ -631,7 +631,7 @@ footer{
         text-align: left;
         margin-top: 2rem;
         color: #121212;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         line-height: 1.7rem;
     }
 
@@ -651,6 +651,10 @@ footer{
 
     .mobile-footer{
         display: block;
+    }
+
+    #footer-left-text {
+        margin-top: -1.3rem!important;
     }
 
  }
