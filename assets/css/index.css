@@ -332,6 +332,14 @@ footer{
     left: 10rem;
 }
 
+.suspend-btn1{
+    position: absolute;
+    transform:rotateZ(-30deg);  
+    top: 2rem;
+    max-width: 80%;
+    left: 5rem;
+}
+
 .call-to-action-relative{
     border: 1px solid #e5e5e5;
     background-color: #000;
@@ -708,6 +716,11 @@ footer{
         top: 2rem;
         left: 4rem;
     }
-        
+       
+    .suspend-btn1{
+        top: 2rem;
+        left: 4rem;
+    }
+       
 
  }
